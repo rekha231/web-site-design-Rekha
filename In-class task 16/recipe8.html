@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Recipe</title>  
+  <style>
+    table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: lightpink;
+  
+  }
+  tr:nth-child(even) {
+    background-color: lightcyan;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    table {
+      border: 5px;
+    }
+    table thead {
+      display: none;
+    }
+    table tr {
+      margin-bottom: 10px;
+      display: block;
+      border: 1px solid #ddd;
+    }
+    table td {
+      display: block;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  </style>
+
+</head>
+
+<body>
+
+<h1>My Favorite Recipe</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ingredients</th>
+      <th>Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Onion</td>
+      <td>1 Piece</td>
+    </tr>
+    <tr>
+      <td>Cabbage and Potatoes </td>
+      <td>1-4  Medium-Sized</td>
+    </tr>
+    <tr>
+      <td>Mustard Oil</td>
+      <td>2 Tablespoons</td>
+    </tr>
+    <tr>
+      <td>Salt</td>
+      <td>To Taste</td>
+    </tr>
+    
+    <tr>
+        <td>Tomato</td>
+        <td>1 Piece</td>
+      </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Preheat oil .</li>
+          <li>Cut potatoes and cabbage into wedges and toss with Mustard oil, salt, and green chilly .</li>
+          <li>Season cabbage , potatoes  with salt, green chilly , and any other desired seasonings.</li>
+          <li>Cook prpoperly on gas stove approximately 15-20 minutes.</li>
+          <li>Serve hot and enjoy!</li>
+        </ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="mailto:ranirekha7222@email.com">Contact me</a> For any Questions or Feedback!</p>
+
+</body>
+</html>
